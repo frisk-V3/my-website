@@ -375,6 +375,12 @@ html, body {
   font-size: 0.9rem;
 }
 
+.card .meta {
+  font-size: 0.8rem;
+  color: #7c8aa5;
+  margin-bottom: 6px;
+}
+
 .card-link {
   font-size: 0.85rem;
   color: var(--accent);
