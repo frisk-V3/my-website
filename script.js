@@ -6,5 +6,5 @@
     setTimeout(function() {
         // 現在のタブでURLを置き換え（戻るボタンで戻れるようにしたくない場合はreplace）
         window.location.replace(newUrl);
-    }, 1000);
+    }, 5000);
 })();
