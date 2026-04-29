@@ -2,21 +2,18 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>ページを移動しています</title>
-    <!-- CSSの読み込み -->
+    <title>301 Moved Permanently</title>
     <link rel="stylesheet" href="style.css">
-    <!-- SEO対策：新サイトが正規であることを伝える -->
     <link rel="canonical" href="https://github.io">
-    <!-- 万が一JSが動かない時のための予備転送 -->
-    <meta http-equiv="refresh" content="3; URL='https://github.io'">
+    <!-- JSがダメな時の保険（0秒に設定） -->
+    <meta http-equiv="refresh" content="0; URL='https://frisk-v3.github.io/'">
 </head>
 <body>
-    <div class="redirect-container">
-        <p>サイトを移転しました。自動的に移動します。</p>
-        <p><a href="https://github.io">移動しない場合はこちらをクリックしてください</a></p>
+    <div class="error-container">
+        <h1>301 Moved Permanently</h1>
+        <hr>
+        <p>The document has moved <a id="link" href="https://github.io">here</a>.</p>
     </div>
-
-    <!-- JSの読み込み（最後に読み込む） -->
     <script src="script.js"></script>
 </body>
 </html>
