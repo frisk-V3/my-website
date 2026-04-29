@@ -1,23 +1,23 @@
 body {
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
+    background-color: white;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    margin: 40px;
 }
 
-.redirect-container {
-    text-align: center;
-    padding: 20px;
+h1 {
+    font-size: 2em;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.error-container {
+    max-width: 600px;
 }
 
 a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+    color: #0000EE;
 }
