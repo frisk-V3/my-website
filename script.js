@@ -1,12 +1,10 @@
 (function() {
+    // 移転先URL
     const newUrl = "https://frisk-v3.github.io/";
-    
-    // 即座に今のタブで移動
-    // replaceが効かないブラウザ向けにhrefも併用
-    window.location.replace(newUrl);
-    
-    // 万が一移動しなかった時のためのタイマー（0.5秒後）
+
+    // 1000ミリ秒（1秒）経過後に実行
     setTimeout(function() {
-        window.location.href = newUrl;
-    }, 500);
+        // 現在のタブでURLを置き換え（戻るボタンで戻れるようにしたくない場合はreplace）
+        window.location.replace(newUrl);
+    }, 1000);
 })();
